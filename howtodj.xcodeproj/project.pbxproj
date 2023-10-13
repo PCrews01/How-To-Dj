@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B5C10DC2ADAD46300EECE1F /* my_models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5C10DB2ADAD46300EECE1F /* my_models.swift */; };
+		7BAA9F4B2AD9F85A007ADA69 /* howtodjApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA9F4A2AD9F85A007ADA69 /* howtodjApp.swift */; };
+		7BAA9F4D2AD9F85A007ADA69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA9F4C2AD9F85A007ADA69 /* ContentView.swift */; };
+		7BAA9F4F2AD9F85A007ADA69 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA9F4E2AD9F85A007ADA69 /* Item.swift */; };
+		7BAA9F512AD9F85D007ADA69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BAA9F502AD9F85D007ADA69 /* Assets.xcassets */; };
+		7BAA9F552AD9F85D007ADA69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BAA9F542AD9F85D007ADA69 /* Preview Assets.xcassets */; };
+		7BAA9F5D2ADA01E6007ADA69 /* ChatGPTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7BAA9F5C2ADA01E6007ADA69 /* ChatGPTSwift */; };
+		7BD5515B2ADB46790034530C /* MySongs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD5515A2ADB46790034530C /* MySongs.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B5C10DB2ADAD46300EECE1F /* my_models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my_models.swift; sourceTree = "<group>"; };
+		7BAA9F472AD9F85A007ADA69 /* howtodj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = howtodj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BAA9F4A2AD9F85A007ADA69 /* howtodjApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = howtodjApp.swift; sourceTree = "<group>"; };
+		7BAA9F4C2AD9F85A007ADA69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7BAA9F4E2AD9F85A007ADA69 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		7BAA9F502AD9F85D007ADA69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BAA9F522AD9F85D007ADA69 /* howtodj.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = howtodj.entitlements; sourceTree = "<group>"; };
+		7BAA9F542AD9F85D007ADA69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7BD5515A2ADB46790034530C /* MySongs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySongs.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BAA9F442AD9F85A007ADA69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BAA9F5D2ADA01E6007ADA69 /* ChatGPTSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B5C10DA2ADAD45500EECE1F /* models */ = {
+			isa = PBXGroup;
+			children = (
+				7B5C10DB2ADAD46300EECE1F /* my_models.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		7BAA9F3E2AD9F85A007ADA69 = {
+			isa = PBXGroup;
+			children = (
+				7BAA9F492AD9F85A007ADA69 /* howtodj */,
+				7BAA9F482AD9F85A007ADA69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BAA9F482AD9F85A007ADA69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BAA9F472AD9F85A007ADA69 /* howtodj.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BAA9F492AD9F85A007ADA69 /* howtodj */ = {
+			isa = PBXGroup;
+			children = (
+				7BD551592ADB46670034530C /* views */,
+				7B5C10DA2ADAD45500EECE1F /* models */,
+				7BAA9F4A2AD9F85A007ADA69 /* howtodjApp.swift */,
+				7BAA9F4C2AD9F85A007ADA69 /* ContentView.swift */,
+				7BAA9F4E2AD9F85A007ADA69 /* Item.swift */,
+				7BAA9F502AD9F85D007ADA69 /* Assets.xcassets */,
+				7BAA9F522AD9F85D007ADA69 /* howtodj.entitlements */,
+				7BAA9F532AD9F85D007ADA69 /* Preview Content */,
+			);
+			path = howtodj;
+			sourceTree = "<group>";
+		};
+		7BAA9F532AD9F85D007ADA69 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7BAA9F542AD9F85D007ADA69 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7BD551592ADB46670034530C /* views */ = {
+			isa = PBXGroup;
+			children = (
+				7BD5515A2ADB46790034530C /* MySongs.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BAA9F462AD9F85A007ADA69 /* howtodj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BAA9F582AD9F85D007ADA69 /* Build configuration list for PBXNativeTarget "howtodj" */;
+			buildPhases = (
+				7BAA9F432AD9F85A007ADA69 /* Sources */,
+				7BAA9F442AD9F85A007ADA69 /* Frameworks */,
+				7BAA9F452AD9F85A007ADA69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = howtodj;
+			packageProductDependencies = (
+				7BAA9F5C2ADA01E6007ADA69 /* ChatGPTSwift */,
+			);
+			productName = howtodj;
+			productReference = 7BAA9F472AD9F85A007ADA69 /* howtodj.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BAA9F3F2AD9F85A007ADA69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					7BAA9F462AD9F85A007ADA69 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 7BAA9F422AD9F85A007ADA69 /* Build configuration list for PBXProject "howtodj" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BAA9F3E2AD9F85A007ADA69;
+			packageReferences = (
+				7BAA9F5B2ADA01E6007ADA69 /* XCRemoteSwiftPackageReference "ChatGPTSwift" */,
+			);
+			productRefGroup = 7BAA9F482AD9F85A007ADA69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BAA9F462AD9F85A007ADA69 /* howtodj */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BAA9F452AD9F85A007ADA69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BAA9F552AD9F85D007ADA69 /* Preview Assets.xcassets in Resources */,
+				7BAA9F512AD9F85D007ADA69 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BAA9F432AD9F85A007ADA69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BAA9F4D2AD9F85A007ADA69 /* ContentView.swift in Sources */,
+				7BAA9F4F2AD9F85A007ADA69 /* Item.swift in Sources */,
+				7BD5515B2ADB46790034530C /* MySongs.swift in Sources */,
+				7BAA9F4B2AD9F85A007ADA69 /* howtodjApp.swift in Sources */,
+				7B5C10DC2ADAD46300EECE1F /* my_models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7BAA9F562AD9F85D007ADA69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BAA9F572AD9F85D007ADA69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7BAA9F592AD9F85D007ADA69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = howtodj/howtodj.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"howtodj/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SU7R24N2X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulinthious.howtodj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BAA9F5A2AD9F85D007ADA69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = howtodj/howtodj.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"howtodj/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SU7R24N2X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulinthious.howtodj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BAA9F422AD9F85A007ADA69 /* Build configuration list for PBXProject "howtodj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BAA9F562AD9F85D007ADA69 /* Debug */,
+				7BAA9F572AD9F85D007ADA69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BAA9F582AD9F85D007ADA69 /* Build configuration list for PBXNativeTarget "howtodj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BAA9F592AD9F85D007ADA69 /* Debug */,
+				7BAA9F5A2AD9F85D007ADA69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7BAA9F5B2ADA01E6007ADA69 /* XCRemoteSwiftPackageReference "ChatGPTSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/ChatGPTSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7BAA9F5C2ADA01E6007ADA69 /* ChatGPTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7BAA9F5B2ADA01E6007ADA69 /* XCRemoteSwiftPackageReference "ChatGPTSwift" */;
+			productName = ChatGPTSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7BAA9F3F2AD9F85A007ADA69 /* Project object */;
+}
