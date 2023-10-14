@@ -138,7 +138,7 @@ struct ContentView: View {
             ["role": "system", "content": my_query]
         ]
         let ai_url = "https://api.openai.com/v1/chat/completions"  // Update with the appropriate endpoint for ChatGPT
-        let ai_key = "Bearer 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"
+        let ai_key = "Bearer sk-G3tY0()R0vvn"
         
         // Prepare the request payload
         let requestBody: [String: Any] = [
